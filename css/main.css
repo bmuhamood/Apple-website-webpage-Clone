@@ -1,5 +1,3 @@
-@media only screen and (max-width: 600px) {}
-
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
@@ -75,12 +73,12 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 538px 200px 54px;
-  font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-image {
   background-image: url("../images/hero.jpg");
-  background-color: #cccccc;
+  background-color: #ccc;
   height: 700px;
   width: 100%;
   background-position: center;
@@ -103,7 +101,7 @@ main {
 
 .hero-text h1 {
   font-size: 40px;
-  font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-text p {
@@ -140,7 +138,6 @@ main {
   object-fit: cover;
 }
 
-
 /* footer */
 
 .main-flex {
@@ -152,7 +149,7 @@ main {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  font-size: 10px
+  font-size: 10px;
 }
 
 .flex li {
@@ -188,7 +185,7 @@ footer {
 
 .usa-logo {
   width: 10px;
-  height: 10px,
+  height: 10px;
 }
 
 .play-logo {
