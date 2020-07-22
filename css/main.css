@@ -108,44 +108,37 @@ main {
 
 .grid-box {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "col1" "col2" "col3" "col4";
 }
 
 .col1 {
-    background: url("../images/promo_iphone5s.jpg");
-    margin: 0 1px;
+    margin: 1px;
     width: 250px;
     height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .col2 {
-    background: url("../images/promo_iphone5c.jpg");
-    margin: 0 1px;
+    margin: 1px;
     width: 250px;
     height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .col3 {
-    background: url("../images/promo_30_years.jpg");
-    margin: 0 1px;
+    margin: 1px;
     width: 250px;
     height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .col4 {
-    background: url("../images/promo_supplier_responsibility.jpg");
-    margin: 0 1px;
+    margin: 1px;
     width: 250px;
     height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .main-flex {
