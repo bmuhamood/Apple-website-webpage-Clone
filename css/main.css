@@ -73,7 +73,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 538px 200px 54px;
-  font: Helvetica, Arial, Verdana, sans-serif;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-image {
@@ -101,7 +101,7 @@ main {
 
 .hero-text h1 {
   font-size: 40px;
-  font: Helvetica, Arial, Verdana, sans-serif;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-text p {
