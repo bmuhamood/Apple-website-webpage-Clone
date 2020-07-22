@@ -4,7 +4,7 @@
 
 # Apple-website-webpage-Clone
 
-> This project is a responsive New York Times Artice page.
+> This project is a responsive Apple Home page.
 
 ![screenshot](./images/screenshot.png)
 
