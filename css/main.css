@@ -108,37 +108,25 @@ main {
 
 .grid-box {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
     grid-template-areas: "col1" "col2" "col3" "col4";
+    margin-top: 160px;
 }
 
-.col1 {
-    margin: 1px;
-    width: 250px;
-    height: 250px;
-
-}
-
-.col2 {
-    margin: 1px;
-    width: 250px;
-    height: 250px;
-
-}
-
-.col3 {
-    margin: 1px;
-    width: 250px;
-    height: 250px;
-
+.img-size {
+    width: 309px;
+    height: 200px;
+    margin: 2px;
 }
 
 .col4 {
     margin: 1px;
-    width: 250px;
-    height: 250px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 150px;
 }
 
 .main-flex {
@@ -178,4 +166,8 @@ main {
 .footer-bottom {
     font-size: 10px;
     margin-left: 160px;
+}
+
+footer {
+    margin-top: 110px;
 }
