@@ -1,3 +1,6 @@
+@media only screen and (max-width: 600px) {
+
+  }
 body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
@@ -82,6 +85,7 @@ main {
     background-size: cover;
     position: relative;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .hero-text {
@@ -91,23 +95,30 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-weight: 100;
 }
 
 .hero-text h1 {
-    font-size: 50px;
+    font-size: 40px;
     font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .hero-text p {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .hero-text span {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
+.hero-text span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .grid-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -115,6 +126,7 @@ main {
     grid-auto-flow: row;
     grid-template-areas: "col1" "col2" "col3" "col4";
     margin-top: 160px;
+    width: 100%;
 }
 
 .img-size {
