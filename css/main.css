@@ -81,6 +81,7 @@ main {
     background-size: cover;
     position: relative;
 }
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -107,7 +108,7 @@ main {
 
 .grid-box {
     display: grid;
-    grid-template: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "col1" "col2" "col3" "col4";
 }
 
